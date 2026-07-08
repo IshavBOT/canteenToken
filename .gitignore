@@ -1,6 +1,19 @@
-.env
+# Python
+backend/venv/
 __pycache__/
 *.pyc
-node_modules/
-dist/
+
+# Node
+frontend/node_modules/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
